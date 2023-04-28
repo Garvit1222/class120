@@ -29,7 +29,7 @@ function gotresult(error,results)
   
   else
   {
-    if((results[0].confidence >= 0.5)&&(prv_results != results[0].label))
+    if((results[0].confidence >= 0.5)&&(prv_result != results[0].label))
     {
     console.log(results);
 
