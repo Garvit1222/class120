@@ -33,7 +33,7 @@ function gotresult(error,results)
     {
     console.log(results);
 
-    prv_result = result[0].label;
+    prv_result = results[0].label;
     var Synth = window.speechSynthesis;
     speak_data = 'object detected is' + results[0].label;
     Utterthis = new SpeechSynthesisUtterance(speak_data);
